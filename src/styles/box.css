@@ -1,0 +1,24 @@
+body {
+  background: rgb(83, 82, 82);
+}
+
+.Box {
+    position: fixed;
+    top: 5%;
+    left: 1%;
+    padding: 16px;
+    background: #fff;
+    color: #333;
+    z-index:10000;
+    max-height: 143px;
+    transition: width 0.3s linear 0s;
+  }
+
+  .Box-text {
+    padding-top: 15px;
+  }
+
+  .Box a {
+    color: #333;
+    text-decoration: underline;
+  }

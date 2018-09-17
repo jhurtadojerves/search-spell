@@ -14,11 +14,7 @@ module.exports = {
     filename: 'js/[name].[hash].js',
     publicPath: 'dist/',
   },
-  optimization: {
-    splitChunks: {
-      chunks: 'all'
-    }
-  },
+
   module: {
     rules: [
       {

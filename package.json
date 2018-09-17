@@ -1,6 +1,6 @@
 {
   "name": "search-spell",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Float window to search spells",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,9 @@
   "dependencies": {
     "@babel/polyfill": "7.0.0",
     "@babel/runtime": "7.0.0",
+    "expired-storage": "^1.0.2",
     "react": "16.5.0",
+    "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "16.5.0"
   }
 }

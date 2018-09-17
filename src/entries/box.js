@@ -3,8 +3,12 @@ import ReactDOM from 'react-dom'
 import Box from '../containers/Box'
 
 const app = document.createElement('div')
-app.id = 'float-blox'
+const modal = document.createElement('div')
+app.id = 'float-box'
+modal.id = 'float-box-modal'
 document.body.prepend(app)
+document.body.prepend(modal)
+
 
 //const app = document.getElementById('app')
 

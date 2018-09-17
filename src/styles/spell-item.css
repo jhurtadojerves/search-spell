@@ -1,0 +1,10 @@
+.Spell-item {
+  margin-bottom: 10px;
+}
+
+.Spell-item-name {
+  color: #333;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
